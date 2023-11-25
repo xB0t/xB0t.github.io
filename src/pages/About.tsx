@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Title from "../components/title";
+import Title from "../components/Title";
 
 const About = () => {
 
@@ -7,7 +7,7 @@ const About = () => {
     <div>
       <Title title="About" />
       <h1>About Page</h1>
-      <Link to= '/'> Home</Link>
+      <Link to='/'> Home</Link>
     </div>
   );
 };

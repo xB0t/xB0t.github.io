@@ -1,18 +1,17 @@
 
 import { Link } from 'react-router-dom';
-import Title from "../components/title";
+import Title from '../components/Title';
 
 
-
-const Home = ()=> {
+const Home = () => {
 
   return (
     <>
-    <Title title="Home Page" />
+      <Title title="Home Page" />
 
-        <h1>Hi, I am Yash</h1>
+      <h1>Hi, I am Yash</h1>
 
-        <Link to= '/about'> About</Link>
+      <Link to='/about'> About</Link>
     </>
 
   )
