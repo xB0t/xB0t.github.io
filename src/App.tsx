@@ -1,6 +1,9 @@
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import './App.css'
 import { useEffect, useState } from "react";
+import Home from './pages/Home';
+import About from './pages/About';
 
 const App = () => {
   const [title] = useState("xB0t Portfolio");
@@ -13,7 +16,12 @@ const App = () => {
 
   return (
     <div>
-      <h1>Hi, I am Yash</h1>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+        </Routes>
+      </Router>
     </div>
   );
 };
