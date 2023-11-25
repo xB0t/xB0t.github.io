@@ -1,9 +1,13 @@
 
+import { Link , Outlet} from 'react-router-dom';
+
+
 const Home = ()=> {
   return (
     <>
         <h1>Hi, I am Yash</h1>
-        <a href='/about'>About</a>
+
+        <Link to= '/about'> About</Link>
     </>
 
   )
