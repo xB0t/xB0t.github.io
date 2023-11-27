@@ -1,7 +1,7 @@
 
 import { useNavigate } from 'react-router-dom';
 import Title from '../components/Title';
-import ReactLogo from '../assets/react.svg';
+import CheemsPic from '../assets/cheems.png';
 
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
 
       <div className="container">
         <div className="image-text-container">
-          <img className="image rounded-full w-40 h-40" src={ReactLogo} alt="Your Image" />
+          <img className="image rounded-full w-40 h-40" src={CheemsPic} alt="Your Image" />
           <div className="text">
             <h1 className="text-6xl font-bold main_heading">Hi, I am Yash.</h1>
             <h2 className="tag_line"> I am Cloud Engineer, Backend Web Developer.</h2>
