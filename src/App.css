@@ -1,59 +1,23 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
-  margin-left: 30%;
+  margin-left: 40%;
   margin-bottom: 25%;
   padding: 2rem;
   text-align: center;
-}
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 
 body {
   background-image: url("../src/assets/xb0t-bg.png");
   background-color: #cccccc;
   background-size: 100% 100%;
-
-}
-
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  /* overflow: hidden; */
-  margin-left: -70%;
-}
-
-.image-text-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.image {
-  max-width: 40%;
-  height: auto;
-  border-radius: 8px;
-
-}
-
-.text {
-  max-width: 55%;
-  text-align: left;
-  padding-left: 20px;
-}
-
-.main_heading {
-  color: white;
-  margin-right: -40%;
-}
-
-.tag_line {
-  color: white;
-  margin-right: -40%;
-  padding-top: 5%;
-  margin-left: 2%;
+  background-repeat: no-repeat;
 }
 
 /* .footer {
@@ -61,17 +25,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(6, 40, 43);
   color: rgb(254, 255, 255);
-  text-align: center;
-} */
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  /* opacity: 0.5; */
   text-align: center;
   padding: 10px;
   padding-bottom: 2%;
@@ -82,90 +36,4 @@ footer {
   align-items: center;
   justify-content: center;
   margin: 0;
-}
-
-.icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-}
-
-@media all and (max-width: 480px) {
-  .container {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-  }
-
-  .image-text-container {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    box-sizing: border-box; */
-    
-  }
-
-  .image {
-    /* max-width: 40%;
-    height: auto;
-    border-radius: 8px; */
-    
-  }
-
-  .text {
-    max-width: 55%;
-    text-align: left;
-    padding-left: 20px;
-    
-  }
-
-  .main_heading {
-    color: white;
-    clear: both;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    max-width: 200px;
-    font-size: 33px;
-    
-  }
-
-  .tag_line {
-    color: white;  
-  }
-
-  /* .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(6, 40, 43);
-    color: rgb(254, 255, 255);
-    text-align: center;
-  } */
-
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    /* opacity: 0.5; */
-    text-align: center;
-    padding: 10px;
-    padding-bottom: 2%;
-  }
-
-  .footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .icon {
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-  }
-}
+} */
