@@ -13,7 +13,6 @@ const Button = ({ name, btnDivStyling, btnStyling, navigateTo }: any) => {
           {name}
         </button>
       </div>
-      ;
     </>
   );
 };
