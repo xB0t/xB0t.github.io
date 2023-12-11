@@ -23,7 +23,7 @@ const Tools = () => {
         Tools I use:
       </h1>
 
-      <div className="w-96 flex flex-wrap place-items-center max-sm:pl-4 ">
+      <div className="w-96 flex flex-wrap place-items-center max-sm:pl-4 mb-20 ">
         {/* <img
           width="48"
           height="48"

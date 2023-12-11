@@ -20,10 +20,10 @@ const Home = () => {
             />
           </div>
           <div className="pb-8">
-            <h1 className="grid place-items-center text-4xl pb-4 text-white">
+            <h1 className="grid place-items-center text-4xl pb-4 text-white max-sm:text-3xl">
               Hi, I am Yash.
             </h1>
-            <h2 className="grid place-items-center text-xl pb-4 text-white">
+            <h2 className="grid place-items-center text-xl pb-4 text-white max-sm:text-lg">
               {" "}
               I am Cloud Engineer, Backend Web Developer.
             </h2>
