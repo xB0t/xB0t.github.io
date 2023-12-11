@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import PageNotFound from "./pages/PageNotFound";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
+
+      <Footer />
     </>
   );
 };
