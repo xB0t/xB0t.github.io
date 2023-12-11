@@ -3,13 +3,15 @@ const Tools = () => {
   //   "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-shadow-tal-revivo.png";
 
   let links = [
-    "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-shadow-tal-revivo.png",
+    // "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-shadow-tal-revivo.png",
+    "https://img.icons8.com/windows/32/FFFFFF/django.png",
     "https://img.icons8.com/color/48/jenkins.png",
     "https://img.icons8.com/color/48/javascript--v1.png",
     "https://img.icons8.com/color/48/typescript.png",
     "https://img.icons8.com/color/48/visual-studio-code-2019.png",
     "https://img.icons8.com/fluency/48/tailwind_css.png",
     "https://img.icons8.com/color/96/git.png",
+    "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/48/FFFFFF/external-github-with-cat-logo-an-online-community-for-software-development-logo-bold-tal-revivo.png",
     "https://img.icons8.com/windows/48/FFFFFF/amazon-web-services.png",
     "https://img.icons8.com/fluency/48/azure-1.png",
     "https://static-00.iconduck.com/assets.00/oracle-icon-512x323-otbvpd98.png",
