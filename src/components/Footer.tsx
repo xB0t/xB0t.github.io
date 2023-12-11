@@ -12,7 +12,7 @@ const Footer = () => {
       {/* max-sm:ml-12 max-sm:mt-10 */}
       <footer className="fixed center-0 bottom-0 pb-10">
         {/* <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"> */}
-        <span className="max-sm:text-red-900 text-white sm:text-center dark:text-gray-400 text-xl">
+        <span className="max-sm:text-white max-sm:pl-14 text-white sm:text-center dark:text-gray-400 text-xl">
           © 2023{" "}
           <a href="https://github.com/xb0t" className="hover:underline">
             xB0t
