@@ -6,14 +6,14 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-EXPOSE 4173
+#EXPOSE 4173
 # CMD ["npm", "run", "preview" "--" "--host"]
 #CMD ["npm" "run" "preview"]
 
 FROM nginx:alpine
 
 # Copy the built React app to Nginx's web server directory
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=build /app/dist /usr/share/nginx/html
 
 # Expose port 80 for the Nginx server
 EXPOSE 80
