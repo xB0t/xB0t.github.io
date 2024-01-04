@@ -13,7 +13,7 @@ const Footer = () => {
               href="https://github.com/xb0t"
               className="hover:underline"
             >
-              xB0t
+              xB0t™
             </a>
             . All Rights Reserved.
           </span>
