@@ -2,7 +2,7 @@ services:
   web:
     build: .
     ports:
-      - "80"
+      - "32770":"80"
 
 networks:
   default:
