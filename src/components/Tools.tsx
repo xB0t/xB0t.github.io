@@ -17,7 +17,7 @@ const Tools = () => {
     "https://static-00.iconduck.com/assets.00/oracle-icon-512x323-otbvpd98.png",
     "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-digital-ocean-a-cloud-infrastructure-with-data-centers-worldwide-logo-shadow-tal-revivo.png",
   ];
-
+  //adding to check what action is performed by GitHub Actions.
   return (
     <>
       <h1 className="grid place-items-center text-4xl pb-4 text-white">
